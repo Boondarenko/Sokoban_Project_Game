@@ -1,0 +1,39 @@
+#canvas {
+   border: 5px solid #000;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -45%);
+   max-width: 100%;
+   max-height: 100%;
+   background: #f2a35f;
+}
+
+#player, #wall, #box, #boxPlace, #audio {
+   display: none;
+}
+
+#win {
+   display: none;
+   position: absolute;
+   transform: translate(50%, 160%);
+   width: 300px;
+   padding: 40px;
+   max-width: 600px;
+   max-height: 600px;
+   text-align: center;
+   font-size: 50px;
+   background: rgb(205, 67, 52);
+   color: gold;
+   border: 3px solid #000;
+   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.root {
+   font-family: 'Nerko One';
+   border: 5px solid #000;
+   width: 610px;
+   margin: 20px auto 0;
+   max-width: 100%;
+   max-height: 100%;
+}

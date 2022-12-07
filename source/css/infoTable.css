@@ -1,0 +1,21 @@
+.header {
+   height: 65px;
+   font-size: 20px;
+   display: flex;
+}
+
+.table {
+   width: 100%;
+   background: rgb(205, 67, 52);
+   color: gold;
+   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.spanBack, .switchAudio {
+   cursor: pointer;
+}
+
+.fa-volume-xmark {
+   width: 25px;
+   height: 20px;
+}
