@@ -1,0 +1,39 @@
+.leaderboard {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 400px;
+   height: 450px;
+   max-width: 100%;
+   max-height: 100%;
+   font-family: 'Nerko One';
+   border: 5px solid #000;
+   background: rgb(205, 67, 52);
+   border-radius: 25px;
+   box-shadow: 0px 0px 15px rgb(205, 67, 52);
+}
+
+.leaderboard h1 {
+   font-size: 30px;
+   color: gold;
+   padding: 15px 53px 20px;
+   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.leaderboard ol li {
+   position: relative;
+   z-index: 1;
+   font-size: 18px;
+   list-style: none;
+   color: rgb(205, 67, 52);
+   text-shadow: -1px -1px 0 gold, 1px -1px 0 rgb(0, 230, 255), -1px 1px 0 gold, 1px 1px 0 rgb(0, 230, 255);
+   padding: 16px 60px 10px 54px;
+}
+
+.leaderboard ol li small {
+   position: relative;
+   z-index: 2;
+   display: block;
+   text-align: right;
+}

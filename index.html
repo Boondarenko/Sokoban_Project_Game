@@ -11,13 +11,16 @@
    <link rel="stylesheet" href="./source/css/intro.css">
    <link rel="stylesheet" href="./source/css/main.css">
    <link rel="stylesheet" href="./source/css/reset.css">
+   <link rel="stylesheet" href="./source/css/leaderboard.css">
    <title>Sokoban</title>
 </head>
 <body>
+   <!-- Load Page (First Page) -->
    <div class="startPage">
       <h1 class="startPageIntroTitle">Sokoban</h1>
       <h3 class="startPageIntroText">press enter to start...</h3>
    </div>
+   <!-- Main Game -->
    <div id="root" class="root">
       <header class="header">
          <table class="table">
@@ -37,6 +40,35 @@
       <img id="box" src="./source/img/sokoban_box.png">
       <img id="boxPlace" src="./source/img/sokoban_place_box.png">
       <audio id="audio" src="./source/audio/sokoban_background_audio.mp3" controls autoplay loop></audio>
+   </div>
+   <!-- Leaderboard (Third Page) -->
+   <div class="leaderboard">
+      <h1>
+         <i class="fa-sharp fa-solid fa-trophy"></i>
+         Most active players
+      </h1>
+      <ol>
+         <li>
+            Player
+            <small>300</small>
+         </li>
+         <li>
+            Player
+            <small>280</small>
+         </li>
+         <li>
+            Player
+            <small>250</small>
+         </li>
+         <li>
+            Player
+            <small>200</small>
+         </li>
+         <li>
+            Player
+            <small>180</small>
+         </li>
+      </ol>
    </div>
 
    <!-- Script -->
