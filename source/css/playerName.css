@@ -1,0 +1,52 @@
+.playerName {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 400px;
+   height: 200px;
+   max-width: 100%;
+   max-height: 100%;
+   font-family: 'Nerko One';
+   border: 5px solid #000;
+   background: rgb(205, 67, 52);
+   border-radius: 25px;
+   box-shadow: 0px 0px 15px rgb(205, 67, 52);
+}
+
+.playerName form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 25px;
+   padding-top: 30px;
+}
+
+.playerName form label {
+   padding-bottom: 10px;
+}
+
+.playerName form input {
+   padding: 3px;
+   margin-bottom: 30px;
+   outline: none;
+   border-radius: 10px;
+   font-size: 20px;
+   font-family: inherit;
+   color: rgb(0, 230, 255);
+   background: gold;
+   border: 3px solid #000;
+   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.acceptNameButton, .rejectNameButton {
+   padding: 5px;
+   border-radius: 10px;
+   font-size: 20px;
+   font-family: inherit;
+   cursor: pointer;
+   border: 3px solid #000;
+   color: gold;
+   background: rgb(205, 67, 52);
+   /* text-shadow: -1px -1px 0 gold, 1px -1px 0 rgb(0, 230, 255), -1px 1px 0 gold, 1px 1px 0 rgb(0, 230, 255); */
+}

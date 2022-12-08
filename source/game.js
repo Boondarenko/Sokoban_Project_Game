@@ -15,7 +15,6 @@ window.addEventListener('keydown', (event) => {
       startPage[0].style.display = 'none';
       canvas.style.display = 'block';
       root.style.display = 'block';
-      start();
    }
 });
 

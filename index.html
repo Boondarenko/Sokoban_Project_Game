@@ -6,20 +6,34 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- Fonts -->
    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Rubik+Distressed&display=swap" rel="stylesheet">
+   <!-- Tab icon -->
+   <link rel="icon" href="./source/img/sokoban_intro_img.png">
    <!-- Styles -->
    <link rel="stylesheet" href="./source/css/infoTable.css">
    <link rel="stylesheet" href="./source/css/intro.css">
    <link rel="stylesheet" href="./source/css/main.css">
    <link rel="stylesheet" href="./source/css/reset.css">
    <link rel="stylesheet" href="./source/css/leaderboard.css">
+   <link rel="stylesheet" href="./source/css/playerName.css">
    <title>Sokoban</title>
 </head>
 <body>
-   <!-- Load Page (First Page) -->
+   <!-- Load Page -->
    <div class="startPage">
       <h1 class="startPageIntroTitle">Sokoban</h1>
       <h3 class="startPageIntroText">press enter to start...</h3>
    </div>
+   <!-- Player Name -->
+   <!-- <div class="playerName">
+      <form action="">
+         <label for="playerName">Enter your name</label>
+         <input name="playerName" id="playerName" type="text">
+         <div class="enterNameButtons">
+            <button id="acceptNameButton" class="acceptNameButton">OK</button>
+            <button id="rejectNameButton" class="rejectNameButton">Cancel</button>
+         </div>
+      </form>
+   </div> -->
    <!-- Main Game -->
    <div id="root" class="root">
       <header class="header">
@@ -41,8 +55,8 @@
       <img id="boxPlace" src="./source/img/sokoban_place_box.png">
       <audio id="audio" src="./source/audio/sokoban_background_audio.mp3" controls autoplay loop></audio>
    </div>
-   <!-- Leaderboard (Third Page) -->
-   <div class="leaderboard">
+   <!-- Leaderboard -->
+   <!-- <div class="leaderboard">
       <h1>
          <i class="fa-sharp fa-solid fa-trophy"></i>
          Most active players
@@ -69,7 +83,7 @@
             <small>180</small>
          </li>
       </ol>
-   </div>
+   </div> -->
 
    <!-- Script -->
    <script src="./source/game.js"></script>
